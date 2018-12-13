@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.788 21.787">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_19" data-name="Group 19" transform="translate(-801.549 -405.524)">
+    <g id="message-icon" transform="translate(564.549 374.524)">
+      <path id="message-icon-2" data-name="message-icon" class="cls-1" d="M13.617,17.7H6.809L9.3,14.979h8.4a1.363,1.363,0,0,0,1.362-1.362V5.447h1.362a1.362,1.362,0,0,1,1.362,1.361V16.34A1.363,1.363,0,0,1,20.426,17.7H17.7v4.085ZM4.086,12.256H1.362A1.363,1.363,0,0,1,0,10.893V1.362A1.362,1.362,0,0,1,1.362,0H14.979a1.362,1.362,0,0,1,1.363,1.362v9.531a1.363,1.363,0,0,1-1.363,1.363H8.171L4.086,16.34Z" transform="translate(237 31)"/>
+    </g>
+  </g>
+</svg>

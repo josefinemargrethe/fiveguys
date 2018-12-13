@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 253 43">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3b5998;
+      }
+
+      .cls-2 {
+        fill: #e0dcdf;
+        font-size: 16px;
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="facebook" transform="translate(-60 -524)">
+    <rect id="Rectangle_1465" data-name="Rectangle 1465" class="cls-1" width="253" height="43" rx="2" transform="translate(60 524)"/>
+    <text id="log_ind_med_facebook_" data-name="log ind med facebook " class="cls-2" transform="translate(121 551)"><tspan x="0" y="0">log ind med facebook </tspan></text>
+    <g id="Symbol_51" data-name="Symbol 51" transform="translate(-1238 -307)">
+      <rect id="Rectangle_1458" data-name="Rectangle 1458" class="cls-3" width="16" height="16" transform="translate(1337 844)"/>
+      <path id="Path_1" data-name="Path 1" class="cls-4" d="M85.422,16V8.711h2.489l.356-2.844H85.422V4.089c0-.8.267-1.422,1.422-1.422h1.511V.089C88,.089,87.111,0,86.133,0a3.431,3.431,0,0,0-3.644,3.733V5.867H80V8.711h2.489V16Z" transform="translate(1261 844)"/>
+    </g>
+  </g>
+</svg>

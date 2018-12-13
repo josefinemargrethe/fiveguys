@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ea5045;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #fffdfd;
+      }
+
+      .cls-2 {
+        font-size: 16px;
+        font-family: ArialMT, Arial;
+        letter-spacing: 0.017em;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_45" data-name="Group 45" transform="translate(-16 -116)">
+    <g id="Group_4" data-name="Group 4" transform="translate(0 -12)">
+      <rect id="Rectangle_1448" data-name="Rectangle 1448" class="cls-1" width="155" height="30" rx="15" transform="translate(16 128)"/>
+      <text id="_05_12_18_20:00" data-name="05/12/18 20:00" class="cls-2" transform="translate(52 149)"><tspan x="0" y="0">05/12/18 20:00</tspan></text>
+      <g id="Icon_Access_Time_Filled" data-name="Icon / Access Time / Filled" transform="translate(-503 -1261)">
+        <rect id="Box" class="cls-3" width="24" height="24" transform="translate(524 1392)"/>
+        <path id="Union_2" data-name="Union 2" class="cls-4" d="M-6549,4339a9.994,9.994,0,0,1,9.99-10A10.005,10.005,0,0,1-6529,4339a10.006,10.006,0,0,1-10.011,10A9.995,9.995,0,0,1-6549,4339Zm2,0a8,8,0,0,0,8,8,8,8,0,0,0,8-8,8,8,0,0,0-8-8A8,8,0,0,0-6547,4339Zm7,1v-6h1.5v5.25l4.5,2.67-.751,1.229Z" transform="translate(7075 -2935)"/>
+      </g>
+    </g>
+  </g>
+</svg>

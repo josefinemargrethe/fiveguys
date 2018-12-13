@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Icon_Location_On_Sharp" data-name="Icon / Location On / Sharp" transform="translate(-428 -1632)">
+    <rect id="Box" class="cls-1" width="24" height="24" transform="translate(428 1632)"/>
+    <path id="Path_1996" data-name="Path 1996" d="M300-22a7,7,0,0,0-7,7c0,5.25,7,13,7,13s7-7.75,7-13A7,7,0,0,0,300-22Zm0,9.5a2.5,2.5,0,0,1-2.5-2.5,2.5,2.5,0,0,1,2.5-2.5,2.5,2.5,0,0,1,2.5,2.5A2.5,2.5,0,0,1,300-12.5Z" transform="translate(140 1656)"/>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b8b8b8;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Symbol_207" data-name="Symbol 207" transform="translate(-173 -320)">
+    <path id="Path_178" data-name="Path 178" class="cls-1" d="M0,32.777V2.951A3.067,3.067,0,0,1,.932.777,2.953,2.953,0,0,1,2.951,0H20.194a1.764,1.764,0,0,1,1.243.466,2.088,2.088,0,0,1,.932,1.087L23.922,5.9H44.893a3.067,3.067,0,0,1,2.175.932A2.82,2.82,0,0,1,48,9.01V32.932a3.067,3.067,0,0,1-.932,2.175,2.82,2.82,0,0,1-2.175.932H2.951a3.067,3.067,0,0,1-2.175-.932A4.186,4.186,0,0,1,0,32.777Z" transform="translate(173 326)"/>
+    <rect id="Rectangle_1447" data-name="Rectangle 1447" class="cls-2" width="48" height="48" transform="translate(173 320)"/>
+  </g>
+</svg>

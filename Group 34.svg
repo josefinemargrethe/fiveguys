@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fffdfd;
+      }
+    </style>
+  </defs>
+  <g id="Group_34" data-name="Group 34" transform="translate(-22 -128)">
+    <g id="Icon_Access_Time_Filled" data-name="Icon / Access Time / Filled" transform="translate(-502 -1264)">
+      <rect id="Box" class="cls-1" width="24" height="24" transform="translate(524 1392)"/>
+      <path id="Union_2" data-name="Union 2" class="cls-2" d="M-6546.656,4344.015A10.251,10.251,0,0,1-6548,4339a10,10,0,0,1,9.99-10,10.006,10.006,0,0,1,10.01,10,10.007,10.007,0,0,1-10.01,10A9.869,9.869,0,0,1-6546.656,4344.015ZM-6546,4339a8,8,0,0,0,8,8,8,8,0,0,0,8-8,8,8,0,0,0-8-8A8,8,0,0,0-6546,4339Zm6,1v-6h1.5v5.249l4.5,2.67-.749,1.231Z" transform="translate(7075 -2935)"/>
+    </g>
+  </g>
+</svg>

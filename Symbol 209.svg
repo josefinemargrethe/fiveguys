@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.269 22.268">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fffdfd;
+      }
+
+      .cls-2 {
+        fill: #66b0a5;
+      }
+    </style>
+  </defs>
+  <g id="Symbol_209" data-name="Symbol 209" transform="translate(0)">
+    <path id="Path_2002" data-name="Path 2002" class="cls-1" d="M11.134,0A11.134,11.134,0,1,1,0,11.134,11.134,11.134,0,0,1,11.134,0Z"/>
+    <g id="_" data-name="+" transform="translate(6.681 6.681)">
+      <path id="Union_1" data-name="Union 1" class="cls-2" d="M3.9,8.907V5.01H0V3.9H3.9V0H5.01V3.9h3.9V5.01H5.01v3.9Z"/>
+    </g>
+  </g>
+</svg>

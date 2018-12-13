@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 349 68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ea5045;
+      }
+
+      .cls-2, .cls-7 {
+        fill: #fffdfd;
+      }
+
+      .cls-2 {
+        stroke: #707070;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 15px;
+      }
+
+      .cls-3, .cls-4 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-4 {
+        font-size: 17px;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        fill: #b8b8b8;
+      }
+
+      .cls-7 {
+        fill-rule: evenodd;
+      }
+
+      .cls-8 {
+        stroke: none;
+      }
+
+      .cls-9 {
+        filter: url(#Surface-2);
+      }
+
+      .cls-10 {
+        filter: url(#Surface);
+      }
+    </style>
+    <filter id="Surface" x="0" y="0" width="94" height="68" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Surface-2" x="85" y="0" width="264" height="68" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_41" data-name="Group 41" transform="translate(-11.5 -644.319)">
+    <g id="Group_40" data-name="Group 40">
+      <g class="cls-10" transform="matrix(1, 0, 0, 1, 11.5, 644.32)">
+        <rect id="Surface-3" data-name="Surface" class="cls-1" width="85" height="59" transform="translate(4.5 3.5)"/>
+      </g>
+      <g class="cls-9" transform="matrix(1, 0, 0, 1, 11.5, 644.32)">
+        <g id="Surface-4" data-name="Surface" class="cls-2" transform="translate(89.5 3.5)">
+          <rect class="cls-8" width="255" height="59"/>
+          <rect class="cls-5" x="0.5" y="0.5" width="254" height="58"/>
+        </g>
+      </g>
+      <text id="_06.12.18_" data-name="06.12.18
+" class="cls-3" transform="translate(28 684)"><tspan x="0" y="0">06.12.18</tspan><tspan x="0" y="17"></tspan></text>
+      <text id="_04.01.03" data-name="04.01.03" class="cls-4" transform="translate(130 682)"><tspan x="0" y="0">04.01.03</tspan></text>
+      <rect id="Box" class="cls-5" width="27" height="27" transform="translate(305 661)"/>
+      <path id="Icon_Check_Circle_Purple" data-name="Icon / Check Circle / Purple" class="cls-6" d="M4.95,9.675,9,13.725,19.125,6.75ZM11.25,0A11.25,11.25,0,1,0,22.5,11.25,11.283,11.283,0,0,0,11.25,0Z" transform="translate(307.25 663.25)"/>
+      <g id="Icon_Close_Filled" data-name="Icon / Close / Filled" transform="translate(120 -515)">
+        <rect id="Box-2" data-name="Box" class="cls-5" width="20" height="20" transform="translate(188 1180)"/>
+        <path id="Path_954" data-name="Path 954" class="cls-7" d="M11.667-12.833,10.5-14,5.833-9.333,1.167-14,0-12.833,4.667-8.167,0-3.5,1.167-2.333,5.833-7,10.5-2.333,11.667-3.5,7-8.167Z" transform="translate(192.167 1198.167)"/>
+      </g>
+    </g>
+  </g>
+</svg>

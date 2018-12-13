@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3f3140;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="avatar1" transform="translate(-24 -183)">
+    <g id="Symbol_216_1" data-name="Symbol 216 – 1" transform="translate(24 183)">
+      <circle id="Ellipse_234" data-name="Ellipse 234" class="cls-1" cx="20" cy="20" r="20"/>
+      <path id="Union_44" data-name="Union 44" class="cls-2" d="M0,16V14c0-2.2,3.6-4,8-4s8,1.8,8,4v2ZM4,4A4,4,0,1,1,8,8,4,4,0,0,1,4,4Z" transform="translate(12 12)"/>
+    </g>
+  </g>
+</svg>

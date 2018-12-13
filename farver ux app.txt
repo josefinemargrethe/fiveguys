@@ -1,0 +1,5 @@
+- 4C374B - dagen
+- 66B0A5 - ny besked
+- ABA2AC - læst besked
+- EA5045 - aflevering + dagene
+- 69596A - dag uge måned oversigt

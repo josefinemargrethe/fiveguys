@@ -1,0 +1,2116 @@
+/*---------------------------------------------------
+1: Variables & Common styling
+2: Layout / Grid
+3: Form styling
+4: Table styles
+5: Page specific styles
+---------------------------------------------------*/
+
+/*---------------------------------------------------
+1: Variables & Common styling
+---------------------------------------------------*/
+/*Variables*/
+/*
+:root {
+    --color-dark: #333;
+    --color-light: #FEFEFE;
+    --color-accent: #f90;
+}
+*/
+
+/*Common styling classes*/
+/*
+.rounded {
+    border-radius: 5px;
+}
+*/
+
+/*---------------------------------------------------
+2: Layout / Grid
+---------------------------------------------------*/
+/*Grid container*/
+/*
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 15px;
+    justify-items: center;
+    max-width: 768px;
+    margin: 0 auto;
+    background-color: var(--color-light);
+}
+
+.afleveringerpage .container {
+    justify-items: left;
+}
+*/
+
+/*Grid column items*/
+/*
+.frontervskeatitle {
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+*/
+
+/*loginpage*/
+/*
+.loginform {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+*/
+
+/*
+.huskmig {
+    grid-row-start: 3;
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+.glemtpassword {
+    grid-row-start: 4;
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+*/
+
+/*loginpage grid*/
+/*
+.formgroup {
+    display: grid;
+    grid-template-columns: 1fr 260px;
+    grid-gap: 15px;
+}
+
+.formgroup label {
+    grid-column-start: 1;
+}
+
+.formgroup input {
+    grid-column-start: 2;
+}
+
+.formgroup,
+.glemtpassword {
+    margin-bottom: 1.5em;
+}
+
+afleveringer page
+.afleveringer {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: end;
+}
+*/
+
+/*---------------------------------------------------
+3: Form styling
+---------------------------------------------------*/
+/*Inputs*/
+/*
+label,
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=submit] {
+    padding: 1em;
+}
+*/
+
+
+
+/*
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus {
+    border: 3px solid #ff9900;
+    outline: -webkit-focus-ring-color auto 0;
+}
+*/
+
+
+
+/*
+input[type=submit]:hover {
+    color: black;
+    background-color: #f90;
+}
+*/
+
+/*---------------------------------------------------
+4: Table styles
+---------------------------------------------------*/
+
+/*
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+th {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
+
+td {
+    border: 1px dashed var(--color-accent);
+}
+*/
+
+/*---------------------------------------------------
+5: Page specific styles
+---------------------------------------------------*/
+/*********************************Login page******************************/
+:root {
+    --color-red: #ea5045;
+    --color-grey: #e0dcdf;
+    --color-white: #fff;
+}
+
+
+
+.kealogo {
+    width: 200px;
+    margin: 50px auto;
+}
+
+.kealogo img {
+    width: 100%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 300px;
+    padding: 30px;
+    margin: 0px auto;
+    background-color: var(--color-grey);
+}
+
+.loginpage h1 {
+    text-align: left;
+    font-size: 20pt;
+    color: var(--color-red);
+}
+
+
+.formfelt {
+    display: flex;
+    flex-direction: row-reverse;
+    align-self: center;
+    background: white;
+
+    width: 250px;
+
+
+    border-style: solid;
+    border-color: #c9c9c9;
+    border-width: 1px;
+
+    margin-bottom: 20px;
+}
+
+.textinput {
+    display: flex;
+}
+
+.formikon {
+    display: flex;
+    color: #EA5045;
+    padding: 5px;
+}
+
+.formgroup {
+    align-self: center;
+}
+
+.glemtadgangskode {
+    padding-top: 20px;
+    align-self: center;
+}
+
+.glemtadgangskode a {
+    margin: 0px auto;
+    text-decoration: none;
+    color: var(--color-red);
+}
+
+
+/*input*/
+
+.loginpage label,
+input[type=text],
+input[type=email],
+input[type=password],
+.loginpage input[type=submit] {
+    padding: 1em;
+    width: 180px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus,
+    {
+    border: 1px solid #ea5045;
+}
+
+.loginpage input[type=submit] {
+    background-color: black;
+    color: white;
+    transition: background-color 1s, color 1s;
+    width: 250px;
+    font-size: 14pt;
+}
+
+.loginpage input[type=submit]:hover {
+    color: black;
+    background-color: #ea5045;
+}
+
+
+/*****************************glemt password page****************************/
+
+.glemt img {
+    width: 50%
+
+}
+
+#gif {
+    width: 100vw;
+    height: 100vw;
+}
+
+#glemtpassword {
+    background-color: aqua;
+}
+
+
+.glemt h1 {
+    background-color: #223348;
+    color: #fff;
+}
+
+.glemt h2 {
+    background-color: #ea5045;
+}
+
+#laas {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#laas2 {
+      flex-basis: 200px;
+}
+
+
+#gif {
+      flex-basis: 200px;
+}
+
+
+/*********************************Landing page****************************/
+body {
+    font-family: 'arial', sans-serif;
+    margin: auto;
+    width: 100vw;
+}
+
+.landing {
+        background-color: #f2f2f2;
+
+}
+
+.loginpage {
+    font-family: 'arial', sans-serif;
+    margin: auto;
+    background-color: #223348;
+    width: 100vw;
+
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+hr {}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff;
+    padding: 20px 0px;
+}
+
+#nav span {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: middle;
+
+    z-index: 1;
+}
+
+#nav img {
+    display: flex;
+    margin: 0 auto;
+    vertical-align: middle;
+    width: 90px;
+}
+
+#nav .fa-bell {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+}
+
+/* Menuen der popper ud */
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    background-color: #3f3140;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.overlay-top {
+    padding-top: 70px;
+    background-color: #69596a;
+    margin-bottom: 10px;
+}
+
+.overlay-content {
+    flex: 1;
+    width: 100%;
+    text-align: left;
+}
+
+.overlay-bottom {
+    position: relative;
+    z-index: 2;
+    bottom: 0;
+    background-color: #EA5045;
+}
+
+.overlay a {
+    padding: 30px 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #EA5045;
+}
+
+.overlay-bottom a:hover,
+.overlay-bottom a:focus {
+    color: #3f3140;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+#myNav .fa {
+    padding-right: 35px;
+}
+
+#myNav img {
+    padding-right: 8px;
+}
+
+#landing {
+    padding: 20px;
+}
+
+#landing h3 {
+    margin: 0px;
+}
+
+#landing subtitle {
+    font-size: 10pt;
+    color: #868686;
+}
+
+#landing p {
+    margin: 0px;
+}
+
+#landing .moduler {
+    height: 70px;
+    color: #66b0a5;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #66b0a5;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    margin-bottom: 10px;
+}
+
+#landing .moduler .ikon {
+    flex-grow: 1;
+
+    padding-left: 20px;
+    margin: auto 0;
+}
+
+#landing .moduler .indhold {
+    flex-grow: 10;
+    margin: auto 0;
+}
+
+#landing .moduler .pil {
+    flex-grow: 1;
+    padding-right: 20px;
+    margin: auto 0;
+    text-align: right;
+}
+
+#landing .aflevering {
+    height: 70px;
+    color: #EA5045;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #EA5045;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#landing .aflevering .ikon {
+    flex-grow: 1;
+    padding-left: 20px;
+    margin: auto 0;
+}
+
+#landing .aflevering .indhold {
+    flex-grow: 10;
+    margin: auto 0;
+}
+
+#landing .aflevering .pil {
+    flex-grow: 1;
+    padding-right: 20px;
+    margin: auto 0;
+    text-align: right;
+}
+
+#landing .besked-underviser {}
+
+#landing .besked {
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #d4d1d5;
+}
+
+#landing .besked img {
+    width: 100%;
+}
+
+#landing .besked .indhold {
+    padding: 20px;
+}
+
+#landing .besked p {
+    margin-top: 10px;
+}
+
+#landing .besked-kea {}
+
+#landing .besked-kea {}
+
+
+/************************** Afleverings page *****************************/
+
+.aflevering #tilbageknap {
+    height: 10vw;
+    width: 10vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+#top_bar {
+    background-image: url(goddamnit.svg);
+    height: 40vw;
+    width: 100vw;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 0;
+    top: 0;
+}
+
+
+#top_bar_2 {
+    background-image: url(goddamnit.svg);
+    height: 40vw;
+    width: 100vw;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 0;
+    top: 0;
+}
+
+
+
+#notifikation_knap {
+    background-image: url(img/klikke%20ikon.svg);
+    height: 4vw;
+    width: 4vw;
+    position: absolute;
+    right: 5vw;
+}
+
+
+#notifikation_knap_2 {
+    background-image: url(img/klikke%20ikon.svg);
+    height: 4vw;
+    width: 4vw;
+    position: absolute;
+    right: 5vw;
+}
+
+.aflevering #tilbageknap {
+    height: 10vw;
+    width: 10vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+#tema1 {
+    height: 70vw;
+    width: 94vw;
+    top: 30vw;
+    left: 2.8vw;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+#tema2 {
+    height: 40vw;
+    width: 70vw;
+    top: 48vw;
+    left: 2.8vw;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+#tema3 {
+    height: 40vw;
+    width: 70vw;
+    top: 66vw;
+    left: 2.8vw;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+
+#tema4 {
+    height: 40vw;
+    width: 70vw;
+    top: 84vw;
+    left: 2.8vw;
+    position: absolute;
+    background-repeat: no-repeat;
+
+}
+
+#tema_1 {
+    background-image: url(img/knap_1.svg);
+    height: 40vw;
+    width: 94vw;
+    top: 30vw;
+    left: 2.8vw;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+#tema2 {
+    background-image: url(img/knap%202.svg);
+    height: 40vw;
+    width: 94vw;
+    top: 52vw;
+    left: 2.vw;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+#tema3 {
+    background-image: url(img/knap%203.svg);
+    height: 40vw;
+    width: 94vw;
+    top: 70vw;
+    left: 2.vw;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+#tema4 {
+    background-image: url(img/knap_4.svg);
+    height: 40vw;
+    width: 94vw;
+    top: 88vw;
+    left: 2.vw;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+#afleveringsknap_1 {
+    background-image: url(img/afleverings_knap1.svg);
+    height: 40vw;
+    width: 94vw;
+    top: 22vw;
+    left: 0vw;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#afleveringsknap_2 {
+    background-image: url(img/aflerverings_knap2.svg);
+    height: 40vw;
+    width: 94vw;
+    top: 44vw;
+    left: 0vw;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#afleveringsknap_3 {
+    background-image: url(img/aflervingsknap_3.svg);
+    height: 40vw;
+    width: 94vw;
+    top: 66vw;
+    left: 0vw;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#afleveringsknap_4 {
+    background-image: url(img/afleveringsknap_4.svg);
+    height: 40vw;
+    width: 94vw;
+    top: 88vw;
+    left: vw;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#header {
+    background-image: url(img/header_aflevering.svg);
+    height: 40vw;
+    width: 100vw;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 0;
+    top: 0;
+}
+
+#tidsfrist {
+    height: 20vw;
+    width: 15w;
+    position: absolute;
+    top: 0vw;
+    left: 15;
+    background-repeat: no-repeat;
+}
+
+#opgavebeskrivelse {
+    height: 80vw;
+    width: 90vw;
+    top: 50vw;
+    position: absolute;
+    background-repeat: no-repeat;
+
+}
+
+#upload_knap {
+    background-image: url(img/upload.svg);
+    height: 50vw;
+    width: 50vw;
+    background-repeat: no-repeat;
+
+}
+
+
+
+/**************************** Skema page ********************************/
+
+
+/*******************General Settings*************/
+th {
+    color: #EA5045;
+    padding: 5px;
+    font-size: 1.4em;
+
+}
+
+td {
+    margin: 5px;
+    width: 20px;
+    height: 50px;
+    padding: 5px;
+    font-size: 2em;
+}
+
+.skema h2 {
+    position: absolute;
+    margin-left: 20px;
+    top: -12px;
+}
+
+.skema h1 {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 1;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0vw;
+    margin-left: 10vw;
+}
+
+.moduloversigt h1 {
+    margin-left: 20vw;
+}
+
+#aflevering_header h1 {
+    margin-left: 1vw;
+}
+
+.skema h3 {
+    color: #EA5045;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 35vw;
+}
+
+.todays_date {
+    position: absolute;
+    color: white;
+    background-color: #4C374B;
+    top: 53.4vw;
+    left: 1vw;
+    width: 15vw;
+    height: 12vw;
+    border-radius: 25px;
+}
+
+/*
+.burgermenu {
+    position: absolute;
+    background-image: url(Icon%20-%20Menu.svg);
+    width: 15vw;
+    height: 10vw;
+    top: 5vw;
+
+}
+*/
+
+/*********************Buttons*******************/
+.arbejde_1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #ABA2AC;
+    background-image: url(beskedikon.svg);
+    position: absolute;
+    display: block;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    height: 10vw;
+    width: 15vw;
+    top: 69vw;
+    left: 25vw;
+
+}
+
+.arbejde_1 p {
+    color: white;
+    position: absolute;
+    width: 5vw;
+    left: 12vw;
+}
+
+.modul_1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #66B0A5;
+    background-image: url(beskedikon.svg);
+    position: absolute;
+    display: block;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    height: 10vw;
+    width: 15vw;
+    top: 69vw;
+    left: 1vw;
+
+}
+
+.modul_1 p {
+    color: white;
+    position: absolute;
+    width: 5vw;
+    left: 12vw;
+}
+
+.modul_2 {
+    display: flex;
+    flex-direction: row;
+    background-color: #66B0A5;
+    background-image: url(beskedikon.svg);
+    position: absolute;
+    display: block;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    height: 10vw;
+    width: 15vw;
+    top: 69vw;
+    left: 55vw;
+
+}
+
+.modul_2 p {
+    color: white;
+    position: absolute;
+    width: 5vw;
+    left: 12vw;
+}
+
+.modul_3 {
+    display: flex;
+    flex-direction: row;
+    background-color: #66B0A5;
+    background-image: url(beskedikon.svg);
+    position: absolute;
+    display: block;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    height: 10vw;
+    width: 15vw;
+    top: 109vw;
+    left: 27vw;
+
+}
+
+.modul_3 p {
+    color: white;
+    position: absolute;
+    width: 5vw;
+    left: 12vw;
+}
+
+.aflevering_1 {
+
+    border-radius: 5px;
+    background-color: #EA5045;
+    background-image: url(icon_Invoices.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 15vw;
+    height: 10vw;
+    top: 174vw;
+    left: 27vw;
+
+}
+
+.aflevering_1 p {
+    color: white;
+    position: absolute;
+    width: 5vw;
+    top: 0vw;
+    left: 12vw;
+}
+
+#notifikation {
+    position: absolute;
+    background-image: url(Path%201.svg);
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 10vw;
+    top: 5vw;
+    left: 85vw;
+
+}
+
+#kalendercontainer {
+    position: absolute;
+    background-color: #EA5045;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    top: 195vw;
+    left: 80vw;
+}
+
+#kalenderikon {
+    position: absolute;
+    background-image: url(Group%2024.svg);
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    top: 2vw;
+    left: 2vw;
+}
+
+/*********************Moduloversigt*************/
+
+#modulbox {
+    position: absolute;
+    display: block;
+    background-color: #66B0A5;
+    width: 90vw;
+    height: 20vw;
+    top: 40vw;
+    left: 5vw;
+    border-radius: 5px;
+
+}
+
+#modulbox .ikon {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    top: 5vw;
+    left: 75vw;
+    background-image: url(beskedikon.svg);
+    background-repeat: no-repeat;
+}
+
+#modulbox p {
+    position: absolute;
+    top: -5vw;
+    left: 5vw;
+    color: white;
+    font-size: 1.3em;
+}
+
+#modulbox_2 {
+    position: absolute;
+    display: block;
+    background-color: #66B0A5;
+    width: 90vw;
+    height: 20vw;
+    top: 65vw;
+    left: 5vw;
+    border-radius: 5px;
+
+}
+
+#modulbox_2 .ikon2 {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    top: 5vw;
+    left: 75vw;
+    background-image: url(beskedikon.svg);
+    background-repeat: no-repeat;
+
+}
+
+#modulbox_2 p {
+    position: absolute;
+    top: -5vw;
+    left: 5vw;
+    color: white;
+    font-size: 1.3em;
+}
+
+#modulbox_3 {
+    position: absolute;
+    display: block;
+    background-color: #69596A;
+    width: 90vw;
+    height: 20vw;
+    top: 90vw;
+    left: 5vw;
+    border-radius: 5px;
+
+}
+
+#modulbox_3 .ikon3 {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    top: 5vw;
+    left: 75vw;
+    background-image: url(beskedikon.svg);
+    background-repeat: no-repeat;
+
+}
+
+#modulbox_3 p {
+    position: absolute;
+    top: -4vw;
+    left: 5vw;
+    color: white;
+    font-size: 1.1em;
+}
+
+#modulbox_4 {
+    position: absolute;
+    display: block;
+    background-color: #EA5045;
+    width: 90vw;
+    height: 20vw;
+    top: 115vw;
+    left: 5vw;
+    border-radius: 5px;
+
+}
+
+#modulbox_4 .ikon4 {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    top: 5vw;
+    left: 75vw;
+    background-image: url(icon_Invoices.svg);
+    background-repeat: no-repeat;
+
+}
+
+#modulbox_4 p {
+    position: absolute;
+    top: -4vw;
+    left: 5vw;
+    color: white;
+    font-size: 1.1em;
+}
+
+#frem {
+    background-image: url(Icon%20-%20Keyboard%20Arrow%20-%20Right%20-%20Filled.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 25vw;
+    left: 90vw;
+    width: 28px;
+    height: 28px;
+}
+
+#tilbage {
+    background-image: url(Icon%20-%20Keyboard%20Arrow%20-%20Left%20-%20Filled.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 25vw;
+    left: 3vw;
+    width: 28px;
+    height: 28px;
+}
+
+/*********************Singleview Modul**********/
+#modulbox_5 {
+    position: absolute;
+    display: block;
+    background-color: #66B0A5;
+    width: 100vw;
+    height: 30vw;
+    top: 0vw;
+    left: 0vw;
+    margin: 0px;
+    padding: 0px;
+}
+
+#modulbox_5 .ikon5 {
+    background-image: url(hvid.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10vw;
+    left: 3vw;
+    width: 30px;
+    height: 30px;
+}
+
+#modulbox_5 p {
+    position: absolute;
+    top: 0vw;
+    left: 12vw;
+    color: white;
+    font-size: 2em;
+}
+
+#lektionbox {
+    position: absolute;
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 90vw;
+    height: 30vw;
+    top: 40vw;
+    left: 5vw;
+}
+
+#lektionbox .ikon_1 {
+    background-image: url(Icon%20-%20Location%20On%20-%20Sharp.svg);
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    top: 15vw;
+    background-repeat: no-repeat;
+
+}
+
+#lektionbox .ikon_2 {
+    position: absolute;
+    background-image: url(Group%2027.svg);
+    width: 10vw;
+    height: 10vw;
+    top: 0vw;
+    left: 80vw;
+    background-repeat: no-repeat;
+}
+
+#lektionbox p {
+    position: absolute;
+    margin: 5px;
+    color: #444145;
+}
+
+#lektionbox h1 {
+    position: relative;
+    top: 10vw;
+    left: 20vw;
+}
+
+.underviserbox h3 {
+    position: absolute;
+    top: 70vw;
+    left: 5vw;
+    color: black;
+    font-size: 1.5em;
+}
+
+.underviserbox #avatar_1 {
+    background-image: url(Symbol%206%20%E2%80%93%201.svg);
+    background-color: #66B0A5;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 15vw;
+    height: 15vw;
+    top: 90vw;
+    left: 5vw;
+    border-radius: 50%;
+}
+
+.underviserbox #avatar_2 {
+    background-image: url(Symbol%206%20%E2%80%93%201.svg);
+    background-color: #66B0A5;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 15vw;
+    height: 15vw;
+    top: 90vw;
+    left: 30vw;
+    border-radius: 50%;
+}
+
+.underviserbox #avatar_3 {
+    background-image: url(Symbol%206%20%E2%80%93%201.svg);
+    background-color: #66B0A5;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 15vw;
+    height: 15vw;
+    top: 90vw;
+    left: 55vw;
+    border-radius: 50%;
+}
+
+.underviserbox #avatar_1 p {
+    position: absolute;
+    top: 10vw;
+    color: #444145;
+
+}
+
+.underviserbox #avatar_2 p {
+    position: absolute;
+    top: 10vw;
+    color: #444145;
+
+}
+
+.underviserbox #avatar_3 p {
+    position: absolute;
+    top: 10vw;
+    color: #444145;
+
+}
+
+.dokumenter {
+    position: absolute;
+    width: 90vw;
+    height: 30vw;
+    top: 120vw;
+    left: 5vw;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.dokumenter p {
+    position: absolute;
+    left: 30vw;
+    height: 10vw;
+    font-size: 2em;
+
+}
+
+.dokumenter #ikon_1 {
+    background-image: url(Path%20125.svg);
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 50%;
+    ;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    top: 5vw;
+    left: 5vw;
+}
+
+.dokumenter #ikon_2 {
+    background-image: url(Icon%20-%20Check%20Circle%20-%20Filled.svg);
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 50%;
+    ;
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    top: 3vw;
+    left: 75vw;
+}
+
+.lektier {
+    position: absolute;
+    width: 90vw;
+    height: 30vw;
+    top: 160vw;
+    left: 5vw;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.lektier h3 {
+    top: -12vw;
+    left: 0vw;
+    color: black;
+}
+
+.lektier p {
+    position: absolute;
+    top: 0vw;
+    left: 22vw;
+    font-size: 1.3em;
+    color: #EA5045;
+}
+
+.lektier #ikon {
+    background-image: url(Path%20178.svg);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    top: 5vw;
+    left: 5vw;
+}
+
+/*********************Afleveringsside***********/
+
+#aflevering_header {
+    background-color: #EA5045;
+    position: absolute;
+    position: absolute;
+    display: block;
+    width: 100vw;
+    height: 30vw;
+    top: 0vw;
+    left: 0vw;
+    margin: 0px;
+    padding: 0px;
+}
+
+#aflevering_header h1 {
+    color: white;
+    font-size: 1.5em;
+    position: absolute;
+    top: 12vw;
+    left: 15vw;
+}
+
+#aflevering_header .ikon5 {
+    background-image: url(hvid.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    top: 15vw;
+    left: 5vw;
+}
+
+#frist {
+    background-image: url(Group%2032.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 50vw;
+    height: 20vw;
+    top: 40vw;
+}
+
+#frist p {
+    color: white;
+    position: absolute;
+    top: -2vw;
+    left: 20vw;
+}
+
+#frist .ikon {
+    background-image: url(Group%2034.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    top -1vw;
+    left: 2vw;
+
+}
+
+#opgavebeskrivelse h3 {
+    color: black;
+    position: absolute;
+    top: 55vw;
+    left: 5vw;
+}
+
+.dokumenter_2 {
+    position: absolute;
+    width: 90vw;
+    height: 30vw;
+    top: 70vw;
+    left: 5vw;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.dokumenter_2 p {
+    position: absolute;
+    top: 5vw;
+    left: 25vw;
+    font-size: 1.5em;
+}
+
+.dokumenter_2 #ikon_1 {
+    background-image: url(Path%20125.svg);
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 50%;
+    ;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    top: 5vw;
+    left: 5vw;
+}
+
+.upload_dokument {
+    display: flex;
+    flex-direction: row;
+    background-color: #66B0A5;
+    position: absolute;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    width: 60vw;
+    height: 25vw;
+    top: 110vw;
+    left: 5vw;
+}
+
+.uploadet_af h3 {
+    color: black;
+    position: absolute;
+    left: 5vw;
+    top: 135vw;
+}
+
+.uploadet_af #ikon {
+    background-image: url(Symbol%206%20%E2%80%93%201.svg);
+    background-color: #EA5045;
+    border-radius: 50%;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    top: 150vw;
+    left: 5vw;
+}
+
+.uploadet_af p {
+    position: absolute;
+    top: 10vw;
+}
+
+.skema form {
+    font-size: 1.5em;
+    color: white;
+}
+
+.skema input[type=file] {}
+
+/*********************Footer********************/
+
+.footer {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 195vw;
+
+}
+
+.footer a {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 1;
+    float: left;
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+    width: 18vw;
+}
+
+.footer_menu {
+    width: 50vw;
+    height: 12vw;
+    margin: 5px;
+    background-color: #ABA2AC;
+    border-radius: 25px;
+}
+
+.skema .active {
+    background-color: #69596A;
+}
+
+.footer a:hover {
+    cursor: pointer;
+    background-color: #69596A;
+    color: black;
+    border-radius: 25px;
+}
+
+
+
+/********************************Chat page*******************************/
+.chat {
+    background-color: white;
+    width: 100vw;
+    position: relative;
+    font-family: 'arial';
+    font-size: 4vw;
+}
+
+#blyant {
+    background-image: url(SVG/blyant.svg);
+    position: absolute;
+    width: 4.5vw;
+    height: 4.5vw;
+    right: 5vw;
+    top: 1vw;
+}
+
+.chat #overskrift {
+    position: absolute;
+    left: 40vw;
+    font-size: 6vw;
+}
+
+#beskeder {
+    position: absolute;
+    top: 18vw;
+    left: 1vw;
+}
+
+#grupper {
+    position: absolute;
+    top: 18vw;
+    right: 4vw;
+}
+
+#chatmenu a {
+    text-decoration: none;
+    color: black;
+}
+
+#chatmenu a:hover {
+    color: #68B1A6;
+}
+
+.linje1 {
+    background-image: url(SVG/streg2.svg);
+    width: 100vw;
+    height: 1px;
+    position: absolute;
+    left: 0;
+}
+
+.linje {
+    background-image: url(SVG/streg1.svg);
+    width: 100vw;
+    height: 1px;
+    position: absolute;
+    left: 0;
+}
+
+#line1 {
+    top: 25vw;
+}
+
+#line2 {
+    top: 50vw;
+}
+
+#line3 {
+    top: 75vw;
+}
+
+#line4 {
+    top: 100vw;
+}
+
+#line5 {
+    top: 125vw;
+}
+
+#line6 {
+    top: 150vw;
+}
+
+#line7 {
+    top: 175vw;
+}
+
+#line8 {
+    top: 200vw;
+}
+
+.avatardark {
+    background-image: url(SVG/avatar1.svg);
+    width: 12vw;
+    height: 12vw;
+    position: absolute;
+    left: 2vw;
+}
+
+.avatargreen {
+    background-image: url(SVG/avatar2.svg);
+    width: 12vw;
+    height: 12vw;
+    position: absolute;
+    left: 2vw;
+}
+
+#avatar1 {
+    top: 30vw;
+}
+
+#avatar2 {
+    top: 55vw;
+}
+
+#avatar3 {
+    top: 80vw;
+}
+
+#avatar4 {
+    top: 105vw;
+}
+
+#avatar5 {
+    top: 130vw;
+}
+
+#avatar6 {
+    top: 155vw;
+}
+
+#avatar7 {
+    top: 180vw;
+}
+
+
+/********************Gruppe chat***********************/
+
+.gruppeavatardark {
+    background-image: url(SVG/gruppeavatar2.svg);
+    width: 12vw;
+    height: 12.65vw;
+    position: absolute;
+    left: 2vw;
+}
+
+.gruppeavatargreen {
+    background-image: url(SVG/gruppeavatar3.svg);
+    width: 12vw;
+    height: 12.65vw;
+    position: absolute;
+    left: 2vw;
+}
+
+#gruppeavatar1 {
+    top: 30vw;
+}
+
+#gruppeavatar2 {
+    top: 55vw;
+}
+
+#gruppeavatar3 {
+    top: 80vw;
+}
+
+#plustegn {
+    background-image: url(SVG/plustegn.svg);
+    position: absolute;
+    width: 4.5vw;
+    height: 4.5vw;
+    top: 102vw;
+    left: 26vw
+}
+
+#nygruppe {
+    position: absolute;
+    top: 107vw;
+    left: 30vw;
+}
+
+#chatfeed a {
+    text-decoration: none;
+    color: black;
+}
+
+/***************Beskeder til både gruppe og chat**********************/
+
+#fra1 {
+    position: absolute;
+    top: 30vw;
+    left: 20vw;
+}
+
+#fra2 {
+    position: absolute;
+    top: 55vw;
+    left: 20vw;
+}
+
+#fra3 {
+    position: absolute;
+    top: 80vw;
+    left: 20vw;
+}
+
+#fra4 {
+    position: absolute;
+    top: 105vw;
+    left: 20vw;
+}
+
+#fra5 {
+    position: absolute;
+    top: 130vw;
+    left: 20vw;
+}
+
+#fra6 {
+    position: absolute;
+    top: 155vw;
+    left: 20vw;
+}
+
+#fra7 {
+    position: absolute;
+    top: 180vw;
+    left: 20vw;
+}
+
+#besked1 {
+    position: absolute;
+    top: 40vw;
+    left: 20vw;
+}
+
+#besked2 {
+    position: absolute;
+    top: 65vw;
+    left: 20vw;
+}
+
+#besked3 {
+    position: absolute;
+    top: 90vw;
+    left: 20vw;
+}
+
+#besked4 {
+    position: absolute;
+    top: 115vw;
+    left: 20vw;
+}
+
+#besked5 {
+    position: absolute;
+    top: 140vw;
+    left: 20vw;
+}
+
+#besked6 {
+    position: absolute;
+    top: 165vw;
+    left: 20vw;
+}
+
+#besked7 {
+    position: absolute;
+    top: 190vw;
+    left: 20vw;
+}
+
+#tid1 {
+    position: absolute;
+    top: 30vw;
+    right: 7vw;
+}
+
+#tid2 {
+    position: absolute;
+    top: 55vw;
+    right: 7vw;
+}
+
+#tid3 {
+    position: absolute;
+    top: 80vw;
+    right: 7vw;
+}
+
+#tid4 {
+    position: absolute;
+    top: 105vw;
+    right: 7vw;
+}
+
+#tid5 {
+    position: absolute;
+    top: 130vw;
+    right: 7vw;
+}
+
+#tid6 {
+    position: absolute;
+    top: 155vw;
+    right: 7vw;
+}
+
+#tid7 {
+    position: absolute;
+    top: 180vw;
+    right: 7vw;
+}
+
+
+/*****************************Fælles chat*****************************/
+#line9 {
+    top: 185vw;
+}
+
+#datoogtid {
+    position: absolute;
+    top: 97vw;
+    left: 32vw;
+}
+
+#talebobbel1 {
+    background-image: url(SVG/talebobbel2.svg);
+    position: absolute;
+    width: 69.3vw;
+    height: 25vw;
+    top: 30vw;
+    left: 3vw;
+}
+
+#talebobbel2 {
+    background-image: url(SVG/talebobbel1.svg);
+    position: absolute;
+    width: 72.9vw;
+    height: 25vw;
+    top: 65vw;
+    right: 3vw;
+}
+
+#talebobbel3 {
+    background-image: url(SVG/talebobbel4.svg);
+    position: absolute;
+    width: 69.3vw;
+    height: 37.7vw;
+    top: 105vw;
+    left: 3vw;
+}
+
+#talebobbel4 {
+    background-image: url(SVG/talebobbel3.svg);
+    position: absolute;
+    width: 69.2vw;
+    height: 18.5vw;
+    top: 155vw;
+    right: 3vw;
+}
+
+
+#grtalebobbel3 {
+    background-image: url(SVG/talebobbelred.svg);
+    position: absolute;
+    width: 69.3vw;
+    height: 37.7vw;
+    top: 105vw;
+    left: 3vw;
+}
+
+#attach {
+    background-image: url(SVG/attachikon.svg);
+    position: absolute;
+    width: 4.5vw;
+    height: 4.5vw;
+    left: 5vw;
+    top: 200vw;
+}
+
+#sendknap {
+    background-image: url(SVG/sendknap.svg);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 10vw;
+    top: 198vw;
+}
+
+.chat #tilbageknap {
+    background-image: url(SVG/tilbageknap.svg);
+    position: absolute;
+    width: 4.5vw;
+    height: 4.5vw;
+    top: 9vw;
+    left: 5vw;
+}
+
+
+/************************* chat form ***********************************/
+.chat input[type=text]:focus {
+    border: 2px solid #EA5046;
+    outline: -webkit-focus-ring-color auto 0;
+}
+
+.chat label,
+input[type=text],
+input[type=submit] {
+    padding: 1em;
+}
+
+.messagegroup {
+    position: absolute;
+    top: 197vw;
+    left: 7vw;
+}
+
+.chat input[type=submit]:hover {
+    color: black;
+    background-color: #EA5046;
+    border: 2px solid black;
+}
+
+.chat input[type=text] {
+    border: 1px solid black;
+}
+
+.chat input[type=submit] {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+/***********************************solo chat*******************************/
+
+#redavatar {
+    background-image: url(SVG/avatar3.svg);
+    position: absolute;
+    width: 12.5vw;
+    height: 12.5vw;
+    left: 41vw;
+}
+
+#franavn {
+    color: #EA5046;
+    position: absolute;
+    top: 15vw;
+    left: 31vw;
+    font-size: 4vw;
+}
+
+#nyfranavn {
+    color: #EA5046;
+    position: absolute;
+    top: 15vw;
+    left: 29vw;
+}
+
+#tekst1 {
+    position: absolute;
+    top: 37vw;
+    left: 17vw;
+    font-size: 4vw;
+}
+
+#tekst2 {
+    position: absolute;
+    top: 74vw;
+    left: 30vw;
+    font-size: 4vw;
+}
+
+#tekst3 {
+    position: absolute;
+    top: 115vw;
+    left: 17vw;
+    font-size: 4vw;
+}
+
+#tekst4 {
+    position: absolute;
+    top: 163vw;
+    left: 30vw;
+    font-size: 4vw;
+}
+
+/**********************************GRUppe chat******************************/
+#grtekst1 {
+    position: absolute;
+    top: 40vw;
+    left: 15vw;
+    font-size: 4vw;
+}
+
+#grtekst2 {
+    position: absolute;
+    top: 74vw;
+    left: 27vw;
+    font-size: 4vw;
+}
+
+#grtekst3 {
+    position: absolute;
+    top: 115vw;
+    left: 15vw;
+    font-size: 4vw;
+}
+
+#grfranavn {
+    color: #EA5046;
+    position: absolute;
+    top: 15vw;
+    left: 36vw;
+    font-size: 4vw;
+}
+
+#nygrfranavn {
+    color: #EA5046;
+    position: absolute;
+    top: 15vw;
+    left: 28vw;
+    font-size: 4vw;
+}
+
+#grupperedavatar {
+    background-image: url(SVG/gruppeavatar.svg);
+    position: absolute;
+    width: 12.5vw;
+    height: 13.1vw;
+    left: 41vw;
+}
+
+/*************************************Ny gruppebesked**********************/
+#nytalebobbel {
+    background-image: url(SVG/talebobbel3.svg);
+    position: absolute;
+    width: 70vw;
+    height: 18.6vw;
+    top: 35vw;
+    right: 3vw;
+}
+
+#nytekst {
+    position: absolute;
+    top: 42vw;
+    left: 30vw;
+    font-size: 4vw;
+}
+
+#redkryds {
+    background-image: url(SVG/redplus.svg);
+    position: absolute;
+    width: 4.5vw;
+    height: 4.5vw;
+    top: 1vw;
+    left: 53vw;
+}

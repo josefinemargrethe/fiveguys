@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 253 43">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 20px;
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-3 {
+        fill: #ee7970;
+      }
+    </style>
+  </defs>
+  <g id="unilogin" transform="translate(-60 -458)">
+    <rect id="Rectangle_1464" data-name="Rectangle 1464" class="cls-1" width="253" height="43" rx="2" transform="translate(60 458)"/>
+    <text id="Uni_·_login" data-name="Uni · login" class="cls-2" transform="translate(139 488)"><tspan x="0" y="0">Uni </tspan><tspan class="cls-3" y="0">·</tspan><tspan y="0" xml:space="preserve"> login</tspan></text>
+  </g>
+</svg>

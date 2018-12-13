@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3.908 4.466">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fffdfd;
+      }
+    </style>
+  </defs>
+  <g id="icon_Invoices" transform="translate(-187 -91)">
+    <path id="Path_102" data-name="Path 102" class="cls-1" d="M4.629,0H1.279A.264.264,0,0,0,1,.279V4.466H4.908V.279A.264.264,0,0,0,4.629,0ZM4.071,2.791H1.837V2.233H4.071Zm0-1.117H1.837V1.117H4.071Z" transform="translate(186 91)"/>
+  </g>
+</svg>

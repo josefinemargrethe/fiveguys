@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304 109.571">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #68b1a6;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_31" data-name="Group 31" transform="translate(-9 -243.525)">
+    <g id="avatar" transform="translate(9 337.096)">
+      <circle id="Ellipse_152" data-name="Ellipse 152" class="cls-1" cx="8" cy="8" r="8"/>
+      <path id="Union_29" data-name="Union 29" class="cls-2" d="M0,6V5.25c0-.825,1.35-1.5,3-1.5s3,.675,3,1.5V6ZM1.5,1.5A1.5,1.5,0,1,1,3,3,1.5,1.5,0,0,1,1.5,1.5Z" transform="translate(5 4.5)"/>
+    </g>
+    <g id="Message" transform="translate(33 249.953)">
+      <path id="Rectangle_250" data-name="Rectangle 250" class="cls-1" d="M0,0H270a10,10,0,0,1,10,10V98a10,10,0,0,1-10,10H10A10,10,0,0,1,0,98V0A0,0,0,0,1,0,0Z" transform="translate(0 -6.429)"/>
+    </g>
+  </g>
+</svg>

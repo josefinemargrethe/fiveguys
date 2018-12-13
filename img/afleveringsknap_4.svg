@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 349 68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ea5045;
+      }
+
+      .cls-2, .cls-7 {
+        fill: #fffdfd;
+      }
+
+      .cls-2 {
+        stroke: #707070;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 15px;
+      }
+
+      .cls-3, .cls-4 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-4 {
+        font-size: 17px;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        fill: #b8b8b8;
+      }
+
+      .cls-8 {
+        stroke: none;
+      }
+
+      .cls-9 {
+        filter: url(#Surface-2);
+      }
+
+      .cls-10 {
+        filter: url(#Surface);
+      }
+    </style>
+    <filter id="Surface" x="0" y="0" width="94" height="68" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Surface-2" x="85" y="0" width="264" height="68" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_42" data-name="Group 42" transform="translate(-11.5 -723.319)">
+    <g class="cls-10" transform="matrix(1, 0, 0, 1, 11.5, 723.32)">
+      <rect id="Surface-3" data-name="Surface" class="cls-1" width="85" height="59" transform="translate(4.5 3.5)"/>
+    </g>
+    <g class="cls-9" transform="matrix(1, 0, 0, 1, 11.5, 723.32)">
+      <g id="Surface-4" data-name="Surface" class="cls-2" transform="translate(89.5 3.5)">
+        <rect class="cls-8" width="255" height="59"/>
+        <rect class="cls-5" x="0.5" y="0.5" width="254" height="58"/>
+      </g>
+    </g>
+    <text id="_07.12.18" data-name="07.12.18" class="cls-3" transform="translate(28 763)"><tspan x="0" y="0">07.12.18</tspan></text>
+    <text id="_04.01.04" data-name="04.01.04" class="cls-4" transform="translate(130 761)"><tspan x="0" y="0">04.01.04</tspan></text>
+    <g id="Group_36" data-name="Group 36">
+      <rect id="Box" class="cls-5" width="27" height="27" transform="translate(305 740)"/>
+      <path id="Icon_Check_Circle_Purple" data-name="Icon / Check Circle / Purple" class="cls-6" d="M11.25,0A11.25,11.25,0,1,0,22.5,11.25,11.283,11.283,0,0,0,11.25,0Z" transform="translate(307.25 742.25)"/>
+      <g id="Symbol_25_1" data-name="Symbol 25 – 1" transform="translate(-341 1715) rotate(-90)">
+        <path id="Union_1" data-name="Union 1" class="cls-7" d="M0,13.5A1.5,1.5,0,1,1,1.5,15,1.5,1.5,0,0,1,0,13.5Zm0-6A1.5,1.5,0,1,1,1.5,9,1.5,1.5,0,0,1,0,7.5Zm0-6A1.5,1.5,0,1,1,1.5,3,1.5,1.5,0,0,1,0,1.5Z" transform="translate(959 652)"/>
+      </g>
+    </g>
+  </g>
+</svg>

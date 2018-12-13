@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ea5045;
+      }
+    </style>
+  </defs>
+  <g id="Group_32" data-name="Group 32" transform="translate(-16 -128)">
+    <path id="Path_2034" data-name="Path 2034" class="cls-1" d="M15,0H140a15,15,0,0,1,0,30H15A15,15,0,0,1,15,0Z" transform="translate(16 128)"/>
+  </g>
+</svg>

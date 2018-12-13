@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 353 68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ea5045;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 15px;
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        fill: #fffdfd;
+      }
+
+      .cls-4 {
+        filter: url(#Surface);
+      }
+    </style>
+    <filter id="Surface" x="0" y="0" width="353" height="68" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_28" data-name="Group 28" transform="translate(-12.5 -145.5)">
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 12.5, 145.5)">
+      <rect id="Surface-2" data-name="Surface" class="cls-1" width="344" height="59" rx="4" transform="translate(4.5 3.5)"/>
+    </g>
+    <text id="Tema_01:_Grundlæggende_Webdesign" data-name="Tema 01: Grundlæggende  Webdesign" class="cls-2" transform="translate(33 182)"><tspan x="0" y="0" xml:space="preserve">Tema 01: Grundlæggende  Webdesign</tspan></text>
+    <g id="icon_Invoices" transform="translate(145 75)">
+      <path id="Path_102" data-name="Path 102" class="cls-3" d="M17.714,0H2.286A1.215,1.215,0,0,0,1,1.286V20.571H19V1.286A1.215,1.215,0,0,0,17.714,0ZM15.143,12.857H4.857V10.286H15.143Zm0-5.143H4.857V5.143H15.143Z" transform="translate(186 91)"/>
+    </g>
+  </g>
+</svg>

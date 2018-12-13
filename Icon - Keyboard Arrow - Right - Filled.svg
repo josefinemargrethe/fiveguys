@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.996;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #ea5045;
+      }
+    </style>
+  </defs>
+  <g id="Icon_Keyboard_Arrow_-_Right_Filled" data-name="Icon / Keyboard Arrow - Right / Filled" class="cls-1" transform="translate(836 1368) rotate(180)">
+    <rect id="Box" class="cls-2" width="24" height="24" transform="translate(812 1344)"/>
+    <path id="Icon_Keyboard_Arrow_-_Up_Dark" data-name="Icon / Keyboard Arrow - Up / Dark" class="cls-3" d="M10.6,7.4,6,2.8,1.4,7.4,0,6,6,0l6,6Z" transform="translate(820.3 1361.7) rotate(-90)"/>
+  </g>
+</svg>

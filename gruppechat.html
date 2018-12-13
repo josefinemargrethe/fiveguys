@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="chat">
+    <div id="topcontainer">
+        <div id="menu"></div>
+        <div id="overskrift"><strong>CHAT</strong></div>
+        <a href="nygruppechat.html">
+            <div id="blyant"></div>
+        </a>
+    </div>
+
+    <!--   NAV -->
+    <div id="myNav" class="overlay">
+        <div class="overlay-top">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#" class="profilnavn"><img src="img/profile.png" width="50px">Jane Doe</a>
+        </div>
+        <div class="overlay-content">
+            <a href="landing.html"><i class="fa fa-newspaper-o" style="font-size:23px"></i>Dashboard</a>
+            <a href="skema.html"><i class="fa fa-tasks" style="font-size:23px"></i>Skema</a>
+            <a href="aflevering.html"><i class="fa fa-archive" style="font-size:23px"></i>Arkiv</a>
+            <a href="#"><i class="fa fa-folder-open" style="font-size:23px"></i>Portfolio</a>
+            <a href="chat.html"><i class="fa fa-comments" style="font-size:23px"></i>Chat</a>
+            <a href="#"><i class="fa fa-gear" style="font-size:23px"></i>Indstillinger</a>
+        </div>
+        <div class="overlay-bottom">
+            <a href="loginsite.html"><i class="fa fa-sign-out" style="font-size:23px"></i>Log ud</a>
+        </div>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+    <div id="chatmenu">
+        <div id="beskeder"><a href="chat.html">Beskeder</a></div>
+        <div id="grupper"><strong>Grupper</strong></div>
+        <div id="line1" class="linje1"></div>
+    </div>
+
+    <div id="chatfeed">
+        <a href="fiveguys.html">
+            <div id="gruppeavatar1" class="gruppeavatardark"></div>
+            <div id="fra1"><strong>Five Guys</strong></div>
+            <div id="besked1"><strong>Hey Guys, hvad tid mødes vi?...</strong></div>
+            <div id="line2" class="linje"></div>
+            <div id="tid1"><strong>5m</strong></div>
+        </a>
+
+        <div id="gruppeavatar2" class="gruppeavatargreen"></div>
+        <div id="fra2">Gruppe 9</div>
+        <div id="besked2">Hvor finder jeg...</div>
+        <div id="line3" class="linje"></div>
+        <div id="tid2">8m</div>
+
+
+        <div id="gruppeavatar3" class="gruppeavatardark"></div>
+        <div id="fra3">Hold A</div>
+        <div id="besked3">Undervisning i morgen...</div>
+        <div id="line4" class="linje"></div>
+        <div id="tid3">2t</div>
+
+        <a href="nygruppechat.html">
+            <div id="plustegn"></div>
+            <div id="nygruppe"><strong>OPRET NY GRUPPESAMTALE</strong></div>
+        </a>
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

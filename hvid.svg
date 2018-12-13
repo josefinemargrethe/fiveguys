@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7.4 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fffdfd;
+      }
+    </style>
+  </defs>
+  <path id="hvid" class="cls-1" d="M10.6,7.4,6,2.8,1.4,7.4,0,6,1.775,4.225,6,0l6,6Z" transform="translate(0 12) rotate(-90)"/>
+</svg>

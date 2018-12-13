@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #66b0a5;
+      }
+    </style>
+  </defs>
+  <g id="Icon_Check_Circle_Filled" data-name="Icon / Check Circle / Filled" transform="translate(-760 -366)">
+    <rect id="Box" class="cls-1" width="24" height="24" transform="translate(760 366)"/>
+    <path id="Icon_Check_Circle_Purple" data-name="Icon / Check Circle / Purple" class="cls-2" d="M8,15,3,10,4.4,8.6,8,12.2l7.6-7.6L17,6ZM10,0A10,10,0,1,0,20,10,10.029,10.029,0,0,0,10,0Z" transform="translate(762 368)"/>
+  </g>
+</svg>

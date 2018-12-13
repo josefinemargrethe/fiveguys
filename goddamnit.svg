@@ -1,0 +1,20 @@
+<svg id="Group_32" data-name="Group 32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ea5045;
+      }
+
+      .cls-2 {
+        fill: #fffdfd;
+        font-size: 20px;
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+        letter-spacing: 0.013em;
+      }
+    </style>
+  </defs>
+  <rect id="Status_bar" data-name="Status bar" class="cls-1" width="375" height="100"/>
+  <text id="Afleveringer_" data-name="Afleveringer " class="cls-2" transform="translate(125 77)"><tspan x="0" y="0">Afleveringer </tspan></text>
+  <text id="December_2018" data-name="December 2018" class="cls-2" transform="translate(113 24)"><tspan x="0" y="0">December 2018</tspan></text>
+</svg>

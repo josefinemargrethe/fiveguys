@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 56">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #68b1a6;
+      }
+
+      .cls-2 {
+        fill: #68b1a6;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="gruppeavatar3" transform="translate(-16 -263)">
+    <g id="Symbol_273" data-name="Symbol 273" transform="translate(16 263)">
+      <g id="Ellipse_234" data-name="Ellipse 234" class="cls-1">
+        <circle class="cls-4" cx="20" cy="20" r="20"/>
+        <circle class="cls-5" cx="20" cy="20" r="19.5"/>
+      </g>
+      <path id="Union_44" data-name="Union 44" class="cls-1" d="M0,16V14c0-2.2,3.6-4,8-4s8,1.8,8,4v2ZM4,4A4,4,0,1,1,8,8,4,4,0,0,1,4,4Z" transform="translate(12 12)"/>
+    </g>
+    <g id="Symbol_274" data-name="Symbol 274" transform="translate(29 279)">
+      <circle id="Ellipse_234-2" data-name="Ellipse 234" class="cls-2" cx="20" cy="20" r="20"/>
+      <path id="Union_44-2" data-name="Union 44" class="cls-3" d="M0,16V14c0-2.2,3.6-4,8-4s8,1.8,8,4v2ZM4,4A4,4,0,1,1,8,8,4,4,0,0,1,4,4Z" transform="translate(12 12)"/>
+    </g>
+  </g>
+</svg>

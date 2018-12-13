@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.09 18.09">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Group_24" data-name="Group 24" transform="translate(-327.955 -742.955)">
+    <g id="Group_21" data-name="Group 21">
+      <g id="Calendar" transform="translate(303.955 500.955)">
+        <rect id="Rectangle_557" data-name="Rectangle 557" class="cls-1" width="18.09" height="18.09" transform="translate(24 242)"/>
+        <path id="Path_149" data-name="Path 149" class="cls-2" d="M2.261,5.653V15.829H15.829V5.653ZM14.7,2.261h2.261A1.068,1.068,0,0,1,18.09,3.392V16.959a1.068,1.068,0,0,1-1.131,1.131H1.131A1.068,1.068,0,0,1,0,16.959V3.392A1.068,1.068,0,0,1,1.131,2.261H3.392V1.131A1.068,1.068,0,0,1,4.522,0,1.068,1.068,0,0,1,5.653,1.131V2.261h6.784V1.131a1.131,1.131,0,0,1,2.261,0ZM13.567,13.567H11.306V11.306h2.261Zm-3.392,0H7.914V11.306h2.261Zm3.392-3.392H11.306V7.914h2.261Zm-3.392,0H7.914V7.914h2.261ZM6.784,13.567H4.522V11.306H6.784Z" transform="translate(24 242)"/>
+      </g>
+    </g>
+  </g>
+</svg>
