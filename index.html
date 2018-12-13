@@ -1,59 +1,51 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html lang="da">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Untitled Document</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
-
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body class="loginpage">
 
-    <main class="container">
-
-        <h1 class="frontervskeatitle">Fronter vs. Kea</h1>
+    <div class="kealogo"><img src="img/nytlyfekea.png" alt=""></div>
 
 
-        <form id="fronterkealoginform" class="loginform" action="home.html">
-            <div class="formgroup">
-                <label>Brugernavn</label>
+
+    <form id="container" action="landing.html">
+        <h1>Log ind</h1>
+        <div class="formfelt">
+            <div class="textinput">
                 <input type="text" placeholder="Indtast brugernavn">
             </div>
-
-            <div class="formgroup">
-                <label>Password</label>
-                <input type="password" placeholder="Indtast password">
+            <div class="formikon">
+                <i class="fa fa-user" style="font-size:35px"></i>
             </div>
-
-            <div class="formgroup">
-                <input type="submit" value="Log ind!">
-            </div>
-        </form>
-
-        <div class="huskmig" form="fronterkealoginform">
-            Husk mig <input type="checkbox" value="huskmig">
         </div>
 
-        <div class="glemtpassword">
-            <a href="glemtpassword.html">Glemt password?</a>
-
+        <div class="formfelt">
+            <div class="textinput">
+                <input type="password" placeholder="Indtast Password">
+            </div>
+            <div class="formikon">
+                <i class="fa fa-lock" style="font-size:35px"></i>
+            </div>
         </div>
 
-    </main>
+        <div class="formgroup">
+            <input type="submit" value="Uni · login">
+        </div>
+
+        <div class="glemtadgangskode">
+            <a href="glemt.html">Glemt adgangskode? | Sprog</a>
+        </div>
+    </form>
 
 
 
-    <script src="scripts.js"></script>
-    <script>
-        <!-- JS on the page -->
-    </script>
 </body>
 
 </html>
